@@ -1,6 +1,6 @@
 # README
 
-1. Run `bundle install`
+1. Run `bundle install` and `bin/rails db:migrate`
 2. Run `bin/rails s`
 3. Visit [http://localhost:3000/posts](http://localhost:3000/posts)
 4. The server should stop at the breakpoint:
@@ -21,7 +21,7 @@
          9|     b = 2
         10|   end
     ```
-5. Type `n` TWICE, and then the debugger would stop at `zeitwerk/kernel.rb` while it shoul stop at `a = 1`
+5. Type `n` TWICE, and then the debugger would stop at `zeitwerk/kernel.rb` while it should stop at `a = 1`
 
     **1st `n`**
     ```
